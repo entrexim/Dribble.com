@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 50px;
+
+    background-color: white;
+
+    gap: 3vw;
+    padding: 20px;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 6vw;
+    margin-left: 5x;
+}
+
+.input {
+    height: 200px;
+    width: 40vw;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+::placeholder{
+
+    padding:30px;
+    
+    }
+
+input {
+    width: 40vw;
+    height: 50px;
+    border-radius: 90px;
+    border: none;
+    background-color: #e6dcdcd4;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.nav-item ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 1vw;
+
+}
+
+.nav-item ul li {
+    list-style-type: none;
+    list-style-type: "^";
+
+}
+
+.buttons {
+    display: flex;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.sign-up {
+    background-color: white;
+    border-radius: 90px;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.log-in {
+    background-color: black;
+    border-radius: 90px;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: white;
+}
+
+.space {
+    height: 50px;
+}
+
+.content {
+
+    width: 80vw;
+    border: 2px solid black;
+    margin: 100px 10vw;
+    border-radius: 20px;
+    padding: 20px;
+
+
+
+
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+
+.halo-lab {
+    margin-top: 20px;
+    display: flex;
+    gap: 2vw;
+
+
+}
+
+.halo-lab img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+
+
+}
+
+.s-buttons {
+    display: flex;
+    margin-left: 700px;
+    gap: 20px;
+
+}
+
+.s-btn {
+
+
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+
+    border-radius: 50%;
+
+}
+
+.getintouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    width: 6vw;
+
+
+}
+
+.getintouch a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.item {
+    margin-top: 2px;
+}
+
+.loweritem {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.available-for-work {
+    color: green;
+}
+
+.big-img {
+    margin-top: 35px;
+    border-radius: 25px;
+    
+    
+
+}
+
+.whale-video video {
+    margin-top: 50px;
+    width: 78vw;
+    border-radius: 25px;
+}
+
+.textbox a {
+    color: black;
+    font-size: 50px;
+    margin-left: 31vw;
+
+}
+
+.linediv {
+    display: flex;
+    color: grey;
+    margin: 60px;
+    gap: 20px;
+
+
+
+}
+
+.linediv img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+
+
+}
+
+.line {
+    margin-top: 35px;
+    width: 40vw;
+    height: 2px;
+    background-color: grey;
+    opacity: 0.2;
+
+}
+
+.below-line h2 {
+    margin-left: 7vw;
+}
+
+.below-line .getintouch2 {
+    margin: 20px 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    width: 125px;
+    height: 40px;
+
+}
+
+.getintouch2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.below-line {
+    width: 25vw;
+
+
+    margin: 20px 29vw;
+}
+
+.start-card div {
+    display: flex;
+    margin: 20px;
+
+}
+
+.start-card div p {
+    position: relative;
+    left: 60vw;
+
+
+}
+
+.start-card {
+    margin: 20px 20px;
+    width: 80vw;
+
+    height: 225px;
+}
+
+.cardview {
+    margin: 20px 20px;
+    display: flex;
+    width: 20px;
+    height: 200px;
+    gap: 40px;
+
+}
+
+.cardview img {
+    display: flex;
+    width: 20vw;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.line2 {
+    background-color: gray;
+    opacity: 0.2;
+    width: 100vw;
+    height: 1px;
+}
+.start-card2 {
+    margin-top: 80px;
+    width: 80vw;
+}
+.under-div1 {
+    display: flex;
+    gap: 20px;
+    margin: 20px 80px;
+}
+
+.under-div2 {
+    display: flex;
+    gap: 20px;
+    margin: 20px 80px;
+}
+
+.under-cardview3 img {
+    height: 338px;
+    width: 450;
+}
+
+
+
+
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    margin-top: 60px;
+    background: white;
+
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+
+    padding: 50px;
+
+}
+
+.slider::before,
+.slider::after {
+
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slide-track{
+    display: flex;
+    gap: 20px;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+
+.footer {
+    height: 200px;
+    width: 88vw;
+    margin-top: 30px;
+    margin-left: 10vw;
+}
+
+.footer-tabs {
+    margin-top: 20px;
+    
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 120px;
+}
+
+.footer-tabs .anchor {
+    display: flex;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    gap: 40px;
+}
+.footer-tabs a {
+    
+    text-decoration: none;
+    color: black;
+    gap: 70px;
+}
+
+.footer-tabs :nth-child(10) {
+    display: flex;
+
+
+    gap: 10px;
+}
+
+.last-items {
+    margin-top: 80px;
+    display: flex;
+
+    text-decoration: none;
+    gap: 50vw;
+}
+
+.last-items a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 70px;
+}
+
+.last-items :nth-child(1) {
+    display: flex;
+    gap: 10px;
+}
+.last-items :nth-child(2) {
+    display: flex;
+    gap: 10px;
+}
+.fordown{
+    margin-top: 15px;
+}
+
+
+
+
